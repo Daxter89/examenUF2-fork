@@ -8,3 +8,28 @@ html, body {
 h1 {
     font-size: 2em;
 }
+
+#banner
+	{
+		overflow: hidden;
+		padding: 15em 0em;
+		background: url(images/banner.jpg) no-repeat center;
+		background-size: cover;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+.car {
+    position: absolute;
+    animation: moveCar 2s linear infinite;
+     top: 525px; /* Ajusta la posición vertical del coche, en este caso 100px hacia abajo */
+  }
+  
+  @keyframes moveCar {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+

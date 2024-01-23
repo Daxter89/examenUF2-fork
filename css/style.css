@@ -33,3 +33,14 @@ h1 {
     }
   }
 
+  #payaso {
+    position: relative;
+}
+
+
+#gota {
+    position: absolute;
+    top: 280px; 
+    left: 270px; 
+    z-index: 2; 
+}
